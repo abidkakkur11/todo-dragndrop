@@ -31,6 +31,7 @@ body{
 @media only screen and (min-width: 500px){
 .textbox-styling{
     cursor: pointer;
+    max-width: 90%;
     width: 90%;
     height: 38px;
     margin-left: 3%;
@@ -134,3 +135,10 @@ body{
     box-Shadow:1px 1px gray;
     opacity: 1;
 }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .column,.textbox-styling{
+      width: 100%;
+    }
+  }
