@@ -62,3 +62,10 @@ function addcode()
         addcode();
         }
 })
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .column{
+      width: 100%;
+    }
+  }
