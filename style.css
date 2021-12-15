@@ -89,6 +89,9 @@ body{
     font-family: 'Poppins', sans-serif;
     box-Shadow:1px 1px gray
 }
+.div-style:hover{
+    background-color:rgb(255, 208, 0) ;
+}
 .head1{
     font-size: xx-large;
     font-family: 'Poppins', sans-serif;
