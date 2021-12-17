@@ -1,0 +1,200 @@
+body{
+    background-image: url('src/bg\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+* {
+    box-sizing: border-box;
+  }
+.column {
+    float: left;
+    min-width: 10%;
+    width: 28%;
+    padding: 10px;
+    min-height: 400px;;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 3%;
+    background-image: linear-gradient(rgba(110, 110, 110, 0.527),rgba(44, 46, 43, 0.26));
+    border-style: none;
+    border-color: #474743;
+    border-radius: 4px;
+    border-width: 2px;
+    opacity: 0.8; 
+  }
+  .column:hover{
+    opacity:1;
+  }
+  .column:hover h4{
+    color: white;
+  }
+  .column:hover input{
+    opacity: 1;
+  }
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media only screen and (min-width: 500px){
+.textbox-styling{
+    cursor: pointer;
+    max-width: 90%;
+    width: 90%;
+    height: 38px;
+    margin-left: 3%;
+    border-style: none;
+    border-color: rgb(83, 82, 82);
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 6%;
+    text-align: center;
+    box-shadow: 2px 0px -2px #dab3ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.textbox-styling:hover{
+  opacity: 1;
+  cursor: text;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.0);
+   transform: scale(1.05);
+}
+  }
+.heading1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: auto;
+    vertical-align: middle;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.74);
+}
+.heading1:hover{
+  color: rgb(255, 255, 255);
+}
+.heading2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.74);
+}
+.heading2:hover{
+  color: rgb(255, 255, 255);;
+}
+.div-style{
+    position: absolute;
+    cursor: move;
+    user-select: none;
+    text-align: left;
+    background:rgb(255, 255, 255);
+    border-color: #000000;
+    border-width: 1px;
+    color:rgb(19, 18, 18);
+    max-height: auto;
+    height:10%;
+    line-Height:40px;
+    padding:0 5px;
+    font-weight:bold;
+    position:relative;
+    border-Radius:5px;
+    font-Size:20px;
+    max-width: auto;
+    width:90%;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 3%;
+    opacity:1;
+    font-family: 'Montserrat', sans-serif;
+}
+.div-style:hover{
+    background-color:rgb(165, 164, 160) ;
+    color: black;
+    cursor: grabbing;
+    opacity: 1;
+}
+.head1{
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+}
+.head1:hover{
+  color: rgb(241, 195, 42);
+  cursor: pointer;
+}
+.close-style{
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: x-large;
+    color: #474743;
+    font-family:'Poppins', sans-serif;
+    vertical-align: middle;
+}
+.close-style:hover{
+    color:red;
+}
+.t2{
+    position: absolute;
+    cursor: move;
+    user-select: none;
+    text-align: center;
+    background:rgba(116, 131, 111, 0.787);
+    border-color: #252525;
+    border-width: 2px;
+    color:rgb(0, 0, 0);
+    max-height: auto;
+    height:10%;
+    line-Height:40px;
+    padding:0 5px;
+    position:relative;
+    border-Radius:5px;
+    font-Size:18px;
+    font-weight: bold;
+    max-width: auto; ;
+    width:90%;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    box-Shadow:1px 1px gray;
+    opacity: 1;
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .column,.textbox-styling,.button-style{
+      width: 100%;
+    }
+  }
+.button-style{
+    flex: right;
+    margin-left: 85%;
+    vertical-align: bottom;
+    margin-top: 1%;
+    max-width: 10%;
+    width:80px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgba(246, 230, 7, 0.377);
+    border-radius: 4px;
+    border-style: solid;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-color: rgb(3, 3, 3);
+}
+.button-style:hover{
+    background-color:rgba(246, 230, 7, 0.904);
+    color: rgba(255, 0, 0, 0.603);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO DO LIST</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "icon" href = "src/to-do-list.png" type = "image/x-icon">
+        <script src="https://kit.fontawesome.com/48291d9a75.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&family=Readex+Pro:wght@200&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div> 
+          <h1 id="h1" class="head1">TO DO LIST</h1> 
+          <!--<div class="button-div"><input id="button" class="button-style" type="button" value="Clear All" onclick="removeall()"></div>-->
+            <div id="todolist" class="column" >
+            <input type="text" id="textbox1" class="textbox-styling" placeholder="+ Add todo">
+            </div>
+          </div>
+        </div>
+        <div id="pendinglist" class="column" >
+            <h4 id="head4" class="heading1" style="padding: 2px;">In Progress</h4>
+        </div>
+        <div id="donelist" class="column">
+             <h4 id="icon" class="heading2" style="padding: 2px;">Done</h4>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>    
+    </body>
+</html>
